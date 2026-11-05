@@ -1,0 +1,21 @@
+{
+  "format": 1,
+  "counts": {
+    "quran": 6236,
+    "hadith": 10096,
+    "dua": 10
+  },
+  "item_sha256": {
+    "quran": "943b36745d26f6866e7007600fa01dc4c67491b4c6d3bb22143f31cb4fc49e0c",
+    "hadith": "779c22824ba2f3fb64e5bc9a4c619dfe6087cdbeda57458beca881d4d03bf61b",
+    "dua": "01367f9c367f78a12839e52c3059766305685ec774f9726f192937811cb61bf8"
+  },
+  "asset_sha256": "8672dbed18eec37b7ae62545c059d45387b4368f8cb43041287879ae1b95c31c",
+  "quran_input_sha256": "0df03e1d6da4fc8138208fec1688f2b416f0dd4ebbd514179f3e5e0fbaf4195f",
+  "ghurar_pages_sha256": "67c4fabe5ca594816b24d305b4da6c387c767d10049336706a43c00c9b8eb6d8",
+  "exclusions": {
+    "boundary_or_non_single_span": 788,
+    "editorial_apparatus_omitted": 13,
+    "duplicate_sayings_omitted": 55
+  }
+}

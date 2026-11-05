@@ -1,0 +1,70 @@
+{
+  "photos": [
+    {
+      "file": "wallpapers/1.jpg",
+      "caption": "بين الحرمين الشريفين",
+      "source": "https://commons.wikimedia.org/wiki/File:Karbala_City_2017.jpg",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Karbala_City_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "credit": "Karbobala Photos · CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "period": "twilight",
+      "changes": "Original downloaded image; displayed with cropping and a dark overlay.",
+      "sha256": "2235bcab80215e1d8540b29777c72c434c3ab3e04094ac024e724073224bc6b5",
+      "bytes": 310889
+    },
+    {
+      "file": "wallpapers/2.jpg",
+      "caption": "بين الحرمين والعتبة العباسية المقدسة ليلاً",
+      "source": "https://commons.wikimedia.org/wiki/File:Ramadan_1439_AH,_Karbala_06.jpg",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Ramadan_1439_AH%2C_Karbala_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "credit": "Zoheir Seidanloo · CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "period": "night",
+      "changes": "Original downloaded image; displayed with cropping and a dark overlay.",
+      "sha256": "bdcae49a53245e26310ef87fc5a2310ac84f40ae495713e5a3556e1be46513aa",
+      "bytes": 238828
+    },
+    {
+      "file": "wallpapers/3.jpg",
+      "caption": "إحياء ليالي رمضان بين الحرمين الشريفين",
+      "source": "https://commons.wikimedia.org/wiki/File:Ramadan_1439_AH,_Karbala_20.jpg",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/3/39/Ramadan_1439_AH%2C_Karbala_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "credit": "Zoheir Seidanloo · CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "period": "night",
+      "changes": "Original downloaded image; displayed with cropping and a dark overlay.",
+      "sha256": "071c9a2aa4a54efce4d605d13e58069f46b4305c1983a17b50404a3d43bd50ce",
+      "bytes": 294428
+    },
+    {
+      "file": "wallpapers/4.jpg",
+      "period": "day",
+      "caption": "المحيط الخارجي للعتبة العباسية المقدسة",
+      "title": "Shrine of Imam Hussain.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shrine_of_Imam_Hussain.jpg",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Shrine_of_Imam_Hussain.jpg",
+      "credit": "Karbobala.com · CC BY 4.0",
+      "author": "Karbobala",
+      "author_url": "https://karbobala.com",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "changes": "Original downloaded image; displayed with cropping and a dark overlay.",
+      "sha256": "cc0133849ab6314d4ee28a02dd58dab61fd97cc8844b23b716b8b153b5df0336",
+      "bytes": 666674
+    },
+    {
+      "file": "wallpapers/5.jpg",
+      "period": "day",
+      "caption": "بين الحرمين باتجاه العتبة العباسية المقدسة",
+      "title": "Imam-husiien-karblaa.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Imam-husiien-karblaa.JPG",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Imam-husiien-karblaa.JPG",
+      "credit": "احمد منذر · CC BY-SA 3.0",
+      "author": "احمد منذر",
+      "author_url": "https://commons.wikimedia.org/wiki/User:%D8%A7%D8%AD%D9%85%D8%AF_%D9%85%D9%86%D8%B0%D8%B1",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "changes": "Original downloaded image; displayed with cropping and a dark overlay.",
+      "sha256": "45499a531028f2092ce44d79bc73f83d38f11e645bd21dd50acdcf3a806afad0",
+      "bytes": 75447
+    }
+  ]
+}

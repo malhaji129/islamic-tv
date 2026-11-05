@@ -1,0 +1,31 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'org.local.karbalascreen'
+    compileSdk 34
+    defaultConfig { applicationId 'org.local.karbalascreen'; minSdk 26; targetSdk 34; versionCode 2; versionName '2.0.0' }
+    // User-supplied assets stay private. Public builds are reproducible without them.
+    if (providers.gradleProperty('includePrivateAssets').map { it.toBoolean() }.getOrElse(false)) {
+        sourceSets.main.res.srcDir rootProject.file('private-assets/res')
+    }
+    signingConfigs {
+        publicRelease {
+            if (System.getenv('ISLAMIC_TV_KEYSTORE')) {
+                storeFile file(System.getenv('ISLAMIC_TV_KEYSTORE'))
+                storePassword System.getenv('ISLAMIC_TV_STORE_PASSWORD')
+                keyAlias System.getenv('ISLAMIC_TV_KEY_ALIAS') ?: 'islamic-tv'
+                keyPassword System.getenv('ISLAMIC_TV_KEY_PASSWORD')
+            }
+        }
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    buildTypes {
+        release {
+            minifyEnabled false
+            if (System.getenv('ISLAMIC_TV_KEYSTORE')) signingConfig signingConfigs.publicRelease
+        }
+    }
+}
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20240303'
+}

@@ -1,0 +1,3 @@
+*.bat text eol=crlf
+*LICENSE* -whitespace
+AMIRI-OFL.txt -whitespace

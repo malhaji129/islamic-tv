@@ -1,0 +1,34 @@
+name: Build and verify
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407
+        with:
+          packages: platforms;android-34 build-tools;34.0.0
+      - name: Offline data and pure-Java policies
+        run: |
+          sh scripts/test-policy.sh
+          sh scripts/test-adhan.sh
+          sh scripts/test-atmosphere.sh
+          sh scripts/test-location.sh
+          sh scripts/test-content.sh
+      - name: Screensaver unit tests, lint and public APK
+        run: ./gradlew --no-daemon testDebugUnitTest lintDebug assembleDebug
+      - name: Optional launcher tests, lint and public APK
+        working-directory: launcher
+        run: ./gradlew --no-daemon testReleaseUnitTest lintRelease assembleRelease
+      - name: Private assets are absent
+        run: python3 scripts/check-public-release.py
