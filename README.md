@@ -1,5 +1,7 @@
 # Islamic TV | تلفزيون إسلامي
 
+[![Build](https://github.com/malhaji129/islamic-tv/actions/workflows/ci.yml/badge.svg)](https://github.com/malhaji129/islamic-tv/actions/workflows/ci.yml) [![Release](https://img.shields.io/github/v/release/malhaji129/islamic-tv)](https://github.com/malhaji129/islamic-tv/releases/latest) ![Android 8+](https://img.shields.io/badge/Android-8%2B-3DDC84) ![Source license](https://img.shields.io/badge/code-MIT-blue)
+
 تلفزيون إسلامي للآيات والحِكم ومواقيت الصلاة والطقس، بشاشة توقف خفيفة لأجهزة **Android TV / Google TV بنظام Android8.0 أو أحدث**، مع واجهة رئيسية اختيارية قابلة لترتيب التطبيقات. ليست Firmware ولا تعمل كتطبيق Android على Samsung Tizen أو LG webOS.
 
 ![واجهة شاشة التوقف](docs/images/screensaver.jpg.png)
